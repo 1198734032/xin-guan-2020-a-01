@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #up {
+        display: flex;
+        flex-direction: column;
+        border-radius: 5px;
+        border: 5px solid #a7bcf5;
+        padding: 20px;
+    }
+
+    input {
+        margin: 10px;
+        border: 2px solid rgb(217, 229, 238);
+        border-radius: 3px
+    }
+
+</style>
+
+<body>
+    <div id="up">
+        <input type="text" id="up-name" placeholder="name" />
+        <input type="text" id="up-phone" placeholder="phone" />
+        <input type="password" id="up-password" placeholder="password" />
+        <div>
+            <input type="radio" name="gender" value="male">男
+            <input type="radio" name="gender" value="female">女
+        </div>
+        <input type="submit" value="提交" id="submit">
+    </div>
+    <script src="ajax-post.js"></script>
+    <script src="sign-up.js"></script>
+</body>
+</html>

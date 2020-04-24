@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+     body {
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #in {
+        display: flex;
+        flex-direction: column;
+        border-radius: 5px;
+        border: 5px solid #a7bcf5;
+        padding: 20px;
+    }
+
+    input {
+        margin: 10px;
+        border: 2px solid rgb(217, 229, 238);
+        border-radius: 3px
+    }
+</style>
+<body>
+    <div id="in">
+        <input type="text" id="in-name" placeholder="name" />
+        <input type="password" id="in-password" placeholder="password" />
+        <input type="submit" id="submit" value="登录">
+    </div>
+    <script src="ajax-post.js"></script>
+    <script src="sign-in.js"></script>
+</body>
+
+</html>
